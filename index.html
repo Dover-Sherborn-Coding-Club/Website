@@ -30,12 +30,12 @@
                 for (var i = 1; i <= 4; i = i + 1) {
                     clearBox(i)
                 }
-                document.turn = "X";
+                document.turn = "Joe";
                 if (Math.random() < 0.5) {
-                    document.turn = "O"
+                    document.turn = "Don"
                 }
                 document.winner = null;
-                setMessage("Rules state that Ben(" + document.turn + ") gets to start")
+                setMessage("Rules state that Sleepy (" + document.turn + ") gets to start")
                 hideButton('two')
             }
             function setMessage(msg) {
@@ -44,27 +44,27 @@
             
             function nextMove(square) {
                 if (document.winner != null) {
-                    setMessage(document.winner + " beat you fair and square.")
+                    setMessage(document.winner + " is better than you.")
                 } else if (square.innerText == "") {
                 square.innerText = document.turn;
                 switchTurn();   
                 } else {
-                    setMessage("That square is already used.");
+                    setMessage("Bruh, what are you trying to do.");
                 } 
                 
             }
 
             function switchTurn() {
                 if (winnerVerfication(document.turn)) {
-                    setMessage("Congradulations " + document.turn + "! You won through strategic and well planned techniques!");
+                    setMessage("Congradulations " + document.turn + "! Great, you beat an old man !");
                     showButton('two')
                     document.winner = document.turn;
-            } else if (document.turn == "X") {
-                    document.turn = "O"
-                    setMessage(" It's " + document.turn + "'s turn!");
+            } else if (document.turn == "Joe") {
+                    document.turn = "Don"
+                    setMessage(" It's Tricky " + document.turn + "'s turn!");
                 } else {
-                    document.turn = "X";
-                    setMessage(" It's " + document.turn + "'s turn!");
+                    document.turn = "Joe";
+                    setMessage(" It's Sleepy " + document.turn + "'s turn!");
                 }
             }
             function winnerVerfication(move) {
@@ -126,13 +126,13 @@
         </div>
         <p>Rules:</p>
         <ol>
-            <li>Ben goes first</li>
+            <li>Joe Biden goes first</li>
             <li>2 in a row to win</li>
             <li>Alternate turns</li>
-            <li>Ben always wins</li>
+            <li>Joe Biden always wins</li>
             <li>No adding rules</li>
             <li>No deleting rules</li>
-            <li>No changing words unless you are Ben</li>
+            <li>No changing words unless you are Joe Biden</li>
         </ol>
     </body>
 
