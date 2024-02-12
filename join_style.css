@@ -63,7 +63,7 @@ body {
 }
 
 .btn:hover {
-    width: 200px;
+    width: 2000px;
     height: 100px;
     transform: scale(1);
     transition-delay: 10s;
