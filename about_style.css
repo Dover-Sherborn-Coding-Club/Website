@@ -82,3 +82,26 @@ footer {
     text-align: center;
     padding: 40px 0;
 }
+a:link {
+  color: white; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: dodgerblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightgray;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
