@@ -64,10 +64,14 @@ body {
 
 .btn:hover {
     background-color: #27ae60;
+    width: 600px;
+    height: 500px;
+    transform: scale(1);
+    transition-delay: 0.25s;
+  }
 }
+
 .colorChange {
-    width: 675px;
-    height: 100px;
     background-color: red;
     animation-name: banana;
     animation-duration: 4s;
