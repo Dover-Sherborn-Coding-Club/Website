@@ -63,9 +63,9 @@ body {
 }
 
 .btn:hover {
-    width: 2000px;
+    width: 200px;
     height: 100px;
-    transform: scale(1);
+    transform: scale(2);
     transition-delay: 10s;
   }
 
