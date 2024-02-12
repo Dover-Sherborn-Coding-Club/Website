@@ -63,12 +63,11 @@ body {
 }
 
 .btn:hover {
-    width: 600px;
-    height: 500px;
+    width: 30;
+    height: 40px;
     transform: scale(1);
     transition-delay: 0.25s;
   }
-}
 
 .colorChange {
     background-color: red;
