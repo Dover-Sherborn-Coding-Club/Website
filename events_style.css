@@ -81,4 +81,14 @@ footer {
     color: #fff;
     text-align: center;
     padding: 40px 0;
+a:link {
+  color: white; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+a:hover {
+  color: lightgray;
+  background-color: transparent;
+  text-decoration: underline;
+}
 }
