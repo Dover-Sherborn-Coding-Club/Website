@@ -16,41 +16,30 @@ body {
 }
 
 .navbar {
-    background-color: #3498db;
+    background-color: powderblue; /* Changed to powder blue */
     padding: 20px 0;
-}
-
-.navbar.powderblue {
-    background-color: powderblue;
-}
-
-.navbar.dark {
-    background-color: #34495e;
-}
-
-.navbar .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .navbar .brand {
-    color: #fff;
+    color: #fff; /* White text */
     font-size: 1.5rem;
     text-decoration: none;
 }
 
 .navbar .nav-links {
     list-style: none;
+    display: flex;
 }
 
 .navbar .nav-links li {
-    display: inline;
     margin-left: 20px;
 }
 
 .navbar .nav-links li a {
-    color: #fff;
+    color: #333; /* Dark grey text */
     text-decoration: none;
 }
 
@@ -98,14 +87,9 @@ a:visited {
     text-decoration: none;
 }
 
-a:hover {
-    color: lightgray;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
+a:hover,
 a:active {
-    color: dodgerblue;
+    color: lightgray;
     background-color: transparent;
     text-decoration: underline;
 }
