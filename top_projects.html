@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DS Coding Club</title>
     <link rel="stylesheet" href="top_projects_style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <header>
         <nav class="navbar">
             <div class="container">
                 <a href="index.html" class="brand">DS Coding Club</a>
-                <button class="toggle-btn">Toggle Theme</button>
                 <ul class="nav-links">
                     <li><a href="about.html">About</a></li>
                     <li><a href="top_projects.html">Top Projects</a></li>
                     <li><a href="join.html">JOIN</a></li>
                     <li><a href="events.html">Events</a></li>
                 </ul>
+                <div class="toggle-btn">
+                    <button onclick="toggleNavbar()">Toggle</button>
+                </div>
             </div>
         </nav>
         <div class="hero">
@@ -32,6 +35,11 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        function toggleNavbar() {
+            $('.navbar').toggleClass('dark-mode');
+            $('.nav-links').toggleClass('dark-text');
+        }
+    </script>
 </body>
 </html>
