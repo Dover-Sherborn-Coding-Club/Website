@@ -18,16 +18,15 @@ body {
 .navbar {
     background-color: #3498db;
     padding: 20px 0;
-}
-
-.navbar.dark {
-    background-color: #2c3e50;
-}
-
-.navbar .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.navbar.dark-mode {
+    background-color: powderblue;
+    color: #fff;
+    padding-right: 50px; /* Adding padding to the right */
 }
 
 .navbar .brand {
@@ -37,25 +36,16 @@ body {
 }
 
 .navbar .toggle-btn {
-    background-color: powderblue;
     color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
     cursor: pointer;
-}
-
-.navbar.dark .toggle-btn {
-    background-color: #2c3e50;
-    color: #fff;
 }
 
 .navbar .nav-links {
     list-style: none;
+    display: flex;
 }
 
 .navbar .nav-links li {
-    display: inline;
     margin-left: 20px;
 }
 
@@ -102,25 +92,22 @@ footer {
 }
 
 a:link {
-    color: white; 
-    background-color: transparent; 
-    text-decoration: none;
+  color: white; 
+  background-color: transparent; 
+  text-decoration: none;
 }
-
 a:visited {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
 }
-
 a:hover {
-    color: lightgray;
-    background-color: transparent;
-    text-decoration: underline;
+  color: lightgray;
+  background-color: transparent;
+  text-decoration: underline;
 }
-
 a:active {
-    color: dodgerblue;
-    background-color: transparent;
-    text-decoration: underline;
+  color: dodgerblue;
+  background-color: transparent;
+  text-decoration: underline;
 }
