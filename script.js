@@ -1,8 +1,9 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const toggleBtn = document.querySelector('.toggle-btn');
+document.addEventListener('DOMContentLoaded', function () {
+    const toggleButton = document.getElementById('toggleButton');
     const navbar = document.querySelector('.navbar');
-    
-    toggleBtn.addEventListener('click', function() {
+
+    toggleButton.addEventListener('click', function () {
+        navbar.classList.toggle('powderblue');
         navbar.classList.toggle('dark');
     });
 });
