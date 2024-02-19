@@ -16,8 +16,8 @@ body {
 }
 
 .navbar {
-    background-color: powderblue; /* Change to powder blue */
-    padding: 20px 40px; /* Add padding to left and right */
+    background-color: #3498db;
+    padding: 20px 0;
 }
 
 .navbar .container {
@@ -34,24 +34,23 @@ body {
 
 .navbar .nav-links {
     list-style: none;
-    display: flex; /* Change to flex */
-    justify-content: space-around; /* Spread the links evenly */
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    width: 60%; /* Adjust width as necessary */
 }
 
 .navbar .nav-links li {
-    display: inline;
+    margin-left: 20px;
 }
 
 .navbar .nav-links li a {
     color: #fff;
     text-decoration: none;
-    transition: background-color 0.3s ease; /* Transition effect */
+    transition: color 0.3s ease;
 }
 
 .navbar .nav-links li a:hover {
-    background-color: #23527c; /* Darker shade of blue */
+    color: #1e5f9f;
 }
 
 .hero {
@@ -91,16 +90,14 @@ footer {
     padding: 40px 0;
 }
 
-a:link,
-a:visited {
-    color: white;
-    background-color: transparent;
+a:link, a:visited {
+    color: white; 
+    background-color: transparent; 
     text-decoration: none;
 }
 
-a:hover,
-a:active {
-    color: lightgray;
+a:hover, a:active {
+    color: #1e5f9f;
     background-color: transparent;
     text-decoration: underline;
 }
