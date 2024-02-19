@@ -18,15 +18,20 @@ body {
 .navbar {
     background-color: #3498db;
     padding: 20px 0;
+}
+
+.navbar.powderblue {
+    background-color: powderblue;
+}
+
+.navbar.dark {
+    background-color: #34495e;
+}
+
+.navbar .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.navbar.dark-mode {
-    background-color: powderblue;
-    color: #fff;
-    padding-right: 50px; /* Adding padding to the right */
 }
 
 .navbar .brand {
@@ -35,17 +40,12 @@ body {
     text-decoration: none;
 }
 
-.navbar .toggle-btn {
-    color: #fff;
-    cursor: pointer;
-}
-
 .navbar .nav-links {
     list-style: none;
-    display: flex;
 }
 
 .navbar .nav-links li {
+    display: inline;
     margin-left: 20px;
 }
 
@@ -91,23 +91,21 @@ footer {
     padding: 40px 0;
 }
 
-a:link {
-  color: white; 
-  background-color: transparent; 
-  text-decoration: none;
-}
+a:link,
 a:visited {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
 }
+
 a:hover {
-  color: lightgray;
-  background-color: transparent;
-  text-decoration: underline;
+    color: lightgray;
+    background-color: transparent;
+    text-decoration: underline;
 }
+
 a:active {
-  color: dodgerblue;
-  background-color: transparent;
-  text-decoration: underline;
+    color: dodgerblue;
+    background-color: transparent;
+    text-decoration: underline;
 }
