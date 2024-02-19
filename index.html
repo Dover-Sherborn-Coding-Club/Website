@@ -3,58 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coding Club</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        .navbar {
-            background-color: powderblue;
-            overflow: hidden;
-        }
-        .navbar a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
-        }
-        .navbar a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        .navbar .right {
-            float: right;
-        }
-        .black-mode {
-            background-color: black !important;
-        }
-        .black-mode .navbar a {
-            color: white;
-        }
-    </style>
+    <title>DS Coding Club</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="brand">DS Coding Club</a>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="top_projects.html">Top Projects</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="events.html">Events</a></li>
+            </ul>
+        </div>
+    </nav>
 
-<div class="navbar" id="navbar">
-    <a href="#" class="active">Coding Club</a>
-    <a href="about.html">About</a>
-    <a href="top_projects.html">Top Projects</a>
-    <a href="join.html">Join</a>
-    <a href="events.html">Events</a>
-    <div class="right">
-        <button onclick="toggleNavbar()">Toggle Mode</button>
-    </div>
-</div>
+    <section class="hero">
+        <div class="container">
+            <h1>From Script to Reality: Build It with DS Coding Club</h1>
+            <p>Upcoming events or promotions go here.</p>
+        </div>
+    </section>
 
-<script>
-    function toggleNavbar() {
-        var navbar = document.getElementById("navbar");
-        navbar.classList.toggle("black-mode");
-    }
-</script>
+    <section class="content">
+        <div class="container">
+            <h2>Why Join Us?</h2>
+            <p>Put your compelling reasons to join the DS Coding Club here.</p>
+            <p>Contact us at <a href="mailto:info@dscodingclub.com">info@dscodingclub.com</a>.</p>
+            <p>Join our Google Classroom with the code: ABC</p>
+        </div>
+    </section>
 
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 DS Coding Club. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
