@@ -1,9 +1,12 @@
 nav-bar {
     background-color: #3498db;
     padding: 20px 0;
+
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
 .brand {
     color: #fff;
@@ -13,15 +16,11 @@ nav-bar {
 
 .nav-links {
     list-style: none;
-    display: flex;
 }
 
 .nav-links li {
+    display: inline;
     margin-left: 20px;
-}
-
-.nav-links li:first-child {
-    margin-left: 0;
 }
 
 .nav-links li a {
