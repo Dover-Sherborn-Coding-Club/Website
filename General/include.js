@@ -3,7 +3,7 @@ fetch("/Navbar/navbar.html")
     return response.text()
   })
   .then(data => {
-    document.querySelector("navbar").innerHTML = data;
+    document.querySelector("nav-bar").innerHTML = data;
   });
 
 fetch("/Footer/footer.html")
