@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero {
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+    background-color: #2980b9;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    /*transition: background-color 0.3s ease;*/
+}
+
+.btn:hover {
+    width: 200px;
+    height: 100px;
+    transform: scale(1);
+    transition-delay: 0.50s;
+  }
+
+.colorChange {
+    background-color: red;
+    animation-name: banana;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+@keyframes banana {
+    0% {background-color: mintcream;}
+    15% {background-color: midnightblue;}
+    30% {background-color: mediumaquamarine;}
+    45% {background-color: red;}
+    70% {background-color: pink;}
+    85% {background-color: saddlebrown}
+    100% {background-color: darkmagenta}
+  }
+
+section {
+    padding: 80px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
