@@ -1,6 +1,7 @@
 .hero {
     text-align: center;
     padding: 2rem;
+    background-color: rgba(0, 80, 150, 0.7);
 }
 
 .heading {
