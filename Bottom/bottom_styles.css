@@ -1,0 +1,30 @@
+.bcontainer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    
+}
+  .bcontainer a:link {
+    color: white; 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+  .bcontainer a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .bcontainer a:hover {
+    color: lightgray;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .bcontainer a:active {
+    color: dodgerblue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
