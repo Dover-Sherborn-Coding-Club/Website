@@ -7,7 +7,7 @@
 .heading {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #333;
+    color: black;
 }
 
 .content-container {
@@ -47,12 +47,8 @@ li {
     margin-bottom: 1rem;
 }
 
-.dark-blue {
-    color: #333;
-}
-
-.light-blue {
-    color: #777;
+.bullet_topics {
+    color: black;
 }
 
 p {
