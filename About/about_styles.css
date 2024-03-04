@@ -24,6 +24,12 @@ body {
     padding: 20px;
     border-radius: 8px;
 }
+.dark-blue2, .light-blue2 {
+    width:   80%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
 
 .dark-blue {
     background-color: #3498db;
