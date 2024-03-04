@@ -43,7 +43,7 @@ ul li {
 
 a {
     color: #e02113;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 a:hover {
