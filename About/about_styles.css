@@ -29,7 +29,10 @@ body {
     background-color: #3498db;
     color: white;
 }
-
+img.two{
+    float:right;
+    border: 15px solid #fffab0;
+}
 .light-blue {
     background-color: #87CEEB;
     color: #333;
