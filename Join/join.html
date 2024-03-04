@@ -1,58 +1,90 @@
+
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-      <link rel="stylesheet" href="../Join/join_styles.css">
-      <link rel="stylesheet" href="../styles.css">
-    </head>
-    <body>
-  
-        <navbar></navbar>
-        
-        <header>
-          <h1>Join Our Coding Club!</h1>
-        </header>
-        <main>
-            <section class="dark-blue">
-                <h2>Welcome to our coding club!</h2>
-                <p>If you're passionate about technology, coding, and creating cool projects, you're in the right place</p>
-                <h3>Membership:</h3>
-                <ul>
-                    <li>Open to all students interested in coding and technology</li>
-                    <li>No prior experience required</li>
-                    <li>Whether you're a beginner or experienced, everyone is welcome</li>
-                    <li>To join, follow the steps on the side</li>
-                </ul>
-            </section>
-            <section class="light-blue">
-                <h2>How to Join:</h2>
-                <ul>
-                    <li>Join our Club by Filling out the Form <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4aijk1T2fLdDU3y-FJ9xEAkXn0eUgisRweAob_r41JchWOQ/viewform">Here!</a></li>
-                    <li>Contact Us in the <a href="https://classroom.google.com/c/NjIzMDU2NTc5OTM3?cjc=ukotovt">Google Classroom </a> for any Regards Relating to Joining the Club</li>
-                </ul>
-                <h2>Club Meeting Schedule:</h2>
-                <p>We meet every Monday after school. Sometimes, we have sessions during flex block. Stay updated on our Google Classroom and announcements for any changes or special events</p>
-            </section>
-            <section class="dark-blue">
-                <h2>What to Expect:</h2>
-                <ul>
-                    <li>Engage in coding projects and challenges.</li>
-                    <li>Collaborative learning environment.</li>
-                    <li>Opportunities to showcase your projects and skills.</li>
-                    <li>Fun and supportive community of fellow coders.</li>
-                </ul>
-            </section>
-            <section class="light-blue">
-                <h2>Benefits of Joining:</h2>
-                <ul>
-                    <li>Enhance your coding skills.</li>
-                    <li>Explore new technologies and programming languages.</li>
-                    <li>Build a portfolio of projects.</li>
-                    <li>Connect with like-minded peers and mentors.</li>
-                </ul>
-            </section>
-        </main>
-        
-        <bottom></bottom>
-      
-      </body>
-      <script src="../General/include.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .navbar {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .box {
+      width: calc(50% - 20px);
+      background-color: #f0f0f0;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+    }
+    .box:nth-child(odd) {
+      margin-right: 20px;
+    }
+    .box h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+    .box p {
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <header>
+    <h1>Event Name</h1>
+    <p>Join us for an amazing event!</p>
+  </header>
+
+  <div class="container">
+    <div class="box">
+      <h2>Box 1</h2>
+      <p>Description of box 1</p>
+    </div>
+    <div class="box">
+      <h2>Box 2</h2>
+      <p>Description of box 2</p>
+    </div>
+    <div class="box">
+      <h2>Box 3</h2>
+      <p>Description of box 3</p>
+    </div>
+    <div class="box">
+      <h2>Box 4</h2>
+      <p>Description of box 4</p>
+    </div>
+  </div>
+
+</body>
 </html>
