@@ -43,7 +43,10 @@ img.two{
     background-color: #87CEEB;
     color: #333;
 }
-
+.dark-blue2 {
+    background-color: #3498db;
+    color: white;
+}
 .dark-blue h2, .light-blue h2 {
     margin-top: 0;
 }
