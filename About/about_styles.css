@@ -51,7 +51,11 @@ img.two{
 .dark-blue h2, .light-blue h2 {
     margin-top: 0;
 }
-
+p.blue{
+    background-color: #3498db;
+    color: white;
+    float:left;
+}
 ul {
     list-style-type: none;
     padding: 0;
