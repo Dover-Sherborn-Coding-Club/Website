@@ -46,6 +46,7 @@ img.two{
 .dark-blue2 {
     background-color: #3498db;
     color: white;
+    float:left;
 }
 .dark-blue h2, .light-blue h2 {
     margin-top: 0;
