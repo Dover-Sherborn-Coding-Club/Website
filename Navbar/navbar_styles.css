@@ -1,27 +1,25 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
 .navbar {
-    padding: 0;
+    padding: 20px 10px;
 }
 
 .navbar-brand {
-    font-size: 1.5rem;
+    font-size: 24px;
 }
 
 .navbar-nav .nav-link {
-    font-size: 1.1rem;
-    padding: 0.5rem 1rem;
+    font-size: 18px;
 }
 
 .navbar-toggler-icon {
     color: white;
 }
 
+.navbar-toggler {
+    border: none;
+}
+
 @media (max-width: 768px) {
-    .navbar-collapse {
-        justify-content: flex-end;
+    .navbar-nav .nav-link {
+        font-size: 16px;
     }
 }
