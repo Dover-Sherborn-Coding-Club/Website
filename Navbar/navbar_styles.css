@@ -4,43 +4,24 @@ body {
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #3498db;
-    padding: 0px;
+    padding: 0;
 }
 
-.navbar .logo {
-    font-size: 25px;
+.navbar-brand {
+    font-size: 1.5rem;
 }
 
-.navbar a {
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-toggler-icon {
     color: white;
-    font-size: 16px;
-    text-decoration: none;
-    padding: 0px;
-    user-select: none;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80px;
-    padding-left: 22px;
-    padding-right: 22px;
 }
 
-.navbar-links {
-    display: flex;
-    padding: 0px;
-}
-
-.navbar-links .filler {
-  height: 80px;
-  width: 80px;
-  margin: 0;
-}
-
-.navbar-links a:first-child {
-    margin-left: 0;
+@media (max-width: 768px) {
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
 }
