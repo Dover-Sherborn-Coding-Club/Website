@@ -1,131 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coding Club</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <style>
-        .hero {
-            text-align: center;
-            padding: 2rem;
-            background-color: #f0f8ff; /* Light Blue */
-            color: black;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Coding Club</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="index_styles.css">
+  <style>
+    .hero {
+      background: linear-gradient(to right, rgba(0, 123, 255, 0.7), rgba(0, 123, 255, 0.5)), url('your-background-image.jpg') center center/cover no-repeat;
+      color: white;
+      padding: 5rem 0;
+    }
 
-        .heading {
-            font-size: 2.5rem;
-            font-weight: bold;
-        }
+    .content-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 3rem;
+    }
 
-        .content-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 2rem;
-        }
+    .content-block {
+      padding: 2rem;
+      border-radius: 15px;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+    }
 
-        .content-block {
-            padding: 2rem;
-            border-radius: 8px;
-            margin-bottom: 1rem;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            max-width: 800px;
-        }
+    .even {
+      background-color: #f0f8ff;
+    }
 
-        .even {
-            background-color: #add8e6; /* Light Blue */
-        }
+    .odd {
+      background-color: #d8e3e7;
+    }
 
-        .odd {
-            background-color: #87ceeb; /* Slightly Darker Blue */
-        }
+    h1, h2 {
+      font-weight: bold;
+      text-align: center;
+    }
 
-        h2 {
-            font-size: 1.8rem;
-            margin-bottom: 1rem;
-        }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
 
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 1rem;
-        }
-
-        .bullet_topics {
-            color: black;
-        }
-
-        p {
-            font-size: 1rem;
-            line-height: 1.5;
-        }
-    </style>
+    .bullet_topics {
+      color: #007bff;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Coding Club</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
-        </ul>
-    </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Coding Club</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
 </nav>
 
 <section class="hero">
-    <h1 class="heading">From Script to Reality: Build It with DS Coding Club</h1>
+  <div class="container">
+    <h1 class="display-3">From Script to Reality: Build It with DS Coding Club</h1>
+  </div>
 </section>
 
 <section class="content-container">
-    <div class="content-block even">
-        <h2>Why Join Us?</h2>
-        <ul>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="content-block even">
+          <h2>Why Join Us?</h2>
+          <ul>
             <li>
-                <span class="bullet_topics">Learn and Grow:</span> Expand your coding skills with hands-on projects and interactive sessions
+              <span class="bullet_topics">Learn and Grow:</span> Expand your coding skills with hands-on projects and interactive sessions
             </li>
             <li>
-                <span class="bullet_topics">Community:</span> Connect with other students that share your interests in technology
+              <span class="bullet_topics">Community:</span> Connect with other students that share your interests in technology
             </li>
             <li>
-                <span class="bullet_topics">Fun and Creativity:</span> Explore the endless possibilities of coding through creative projects and challenges
+              <span class="bullet_topics">Fun and Creativity:</span> Explore the endless possibilities of coding through creative projects and challenges
             </li>
-        </ul>
+          </ul>
+        </div>
+      </div>
     </div>
-
-    <div class="content-block odd">
-        <h2>How to Get Involved:</h2>
-        <ul>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="content-block odd">
+          <h2>How to Get Involved:</h2>
+          <ul>
             <li>
-                <span class="bullet_topics">Contact Us:</span> Reach out to us via email or visit our website for more information.
+              <span class="bullet_topics">Contact Us:</span> Reach out to us via email or visit our website for more information.
             </li>
             <li>
-                <span class="bullet_topics">Join our Google Classroom:</span> <a href="https://classroom.google.com/c/NjIzMDU2NTc5OTM3?cjc=ukotovt">Click Here</a> to access resources, announcements, and collaborate with other members.
+              <span class="bullet_topics">Join our Google Classroom:</span> <a href="https://classroom.google.com/c/NjIzMDU2NTc5OTM3?cjc=ukotovt">Click Here</a> to access resources, announcements, and collaborate with other members.
             </li>
             <li>
-                <span class="bullet_topics">Attend Meetings:</span> Join us for our regular meetings where we discuss coding concepts, work on projects, and have fun together.
+              <span class="bullet_topics">Attend Meetings:</span> Join us for our regular meetings where we discuss coding concepts, work on projects, and have fun together.
             </li>
-        </ul>
-        <p>Don't miss out on this opportunity to be part of an exciting community dedicated to coding excellence! Join the Coding Club at Dover-Sherborn today and embark on a journey of discovery and innovation.</p>
+          </ul>
+          <p>Don't miss out on this opportunity to be part of an exciting community dedicated to coding excellence! Join the Coding Club at Dover-Sherborn today and embark on a journey of discovery and innovation.</p>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
-<footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2024 DS Coding Club</p>
+<footer class="bg-light text-center py-4">
+  <p>&copy; 2024 DS Coding Club. All rights reserved.</p>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
