@@ -9,6 +9,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 }
 
 section {
@@ -16,6 +17,7 @@ section {
     margin: 20px;
     padding: 30px;
     border-radius: 10px;
+    text-align: center;
 }
 
 .dark-blue {
