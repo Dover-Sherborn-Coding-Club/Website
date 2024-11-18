@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="/images/logo.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/join/join.css" />
+
+    <title>Coding Club</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <!--Insert header script-->
+      <script type="text/javascript" id="header-insert" src="/scripts/insert-header.js"></script>
+    </header>
+
+    <!--==================== SEARCH ====================-->
+    <div class="search" id="search">
+      <form action="" class="search__form">
+        <i class="ri-search-line search__icon"></i>
+        <input
+          type="search"
+          placeholder="What are you looking for?"
+          class="search__input"
+        />
+      </form>
+      <i class="ri-close-line search__close" id="search-close"></i>
+    </div>
+
+    <!--==================== LOGIN ====================-->
+    <div class="login" id="login">
+      <form action="" class="login__form">
+        <h2 class="login__title">Log in</h2>
+
+        <div class="login__group">
+          <div>
+            <label for="" class="login__label">Email</label>
+            <input
+              type="email"
+              placeholder="Write your email please"
+              class="login__input"
+              id="email"
+            />
+          </div>
+
+          <div>
+            <label for="password" class="login__label">Password</label>
+            <input
+              type="password"
+              placeholder="Enter your password please"
+              class="login__input"
+              id="password"
+            />
+          </div>
+        </div>
+
+        <div>
+          <p class="login__signup">
+            You do not have an account? <a href="#">Sign up</a>
+          </p>
+
+          <a href="#" class="login__forgot"> You forgot your password </a>
+
+          <button class="login__button" type="submit">Log In</button>
+        </div>
+      </form>
+
+      <i class="ri-close-line login__close" id="login-close"></i>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <section class="join_section">
+      <div class="join__container container">
+        <h1 class="join__title">Join Coding Club</h1>
+        <p class="join__description">
+          Interested in joining our coding club? Fill out the form below to get
+          started!
+        </p>
+        <form action="mailto:estermersuli@gmail.com" class="join__form">
+          <div class="join__form-group">
+            <label for="name" class="join__label">Name</label>
+            <input
+              type="text"
+              id="name"
+              class="join__input"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="join__form-group">
+            <label for="email" class="join__label">Email</label>
+            <input
+              type="email"
+              id="email"
+              class="join__input"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="join__form-group">
+            <label for="message" class="join__label">Message</label>
+            <textarea
+              id="message"
+              class="join__textarea"
+              placeholder="Enter your message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="join__button">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!--=================== FOOTER ===================-->
+    <footer class="footer section">
+      <!--Insert footer script-->
+      <script type="text/javascript" id="footer-insert" src="/scripts/insert-footer.js"></script>
+    </footer>
+    <!--=============== MAIN JS ===============-->
+    <script src="/style.css"></script>
+    <script type='text/javascript' src="/scripts/header-interact.js"></script>
+  </body>
+</html>
